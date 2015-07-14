@@ -1,0 +1,11 @@
+<template name="list">
+    <title>DataSetViz</title>
+
+    <div class="container">
+        <div class="row">
+            {{#each attr_edge_files}}
+            <a href="{{pathFor 'show' filename=this.filename}}">{{this.filename}}</a><br>
+            {{/each}}
+        </div>
+    </div>
+</template>

@@ -1,18 +1,15 @@
 <template name="main">
     {{> nav}}
-    {{> home}}
+    {{> yield}}
 </template>
 
 
 <template name="nav">
-    <nav>
-        <div class="nav-wrapper">
-            <a href="#" class="brand-logo">DataSetViz</a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="#">Link</a></li>
-                <li><a href="#">Link</a></li>
-                <li><a href="#">Link</a></li>
-            </ul>
-        </div>
-    </nav>
+    <div class="fixed-navbar">
+        <nav class="blue">
+            <div class="nav-wrapper container">
+                <a href="/" class="brand-logo">DataSetViz</a>
+            </div>
+        </nav>
+    </div>
 </template>
