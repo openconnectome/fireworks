@@ -12,3 +12,4 @@ underscore
 iron:router
 less
 materialize:materialize
+d3js:d3
